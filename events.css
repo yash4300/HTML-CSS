@@ -88,3 +88,14 @@ h4{
 	padding:0px;
 	text-align:center;
 }
+@media screen and (max-width: 768px ){
+	.inn{
+	width: 80%;
+}
+}
+@media screen and (min-width: 769px ){
+	.inn{
+	width: 80%;
+}
+}
+
