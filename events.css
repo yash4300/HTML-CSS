@@ -1,16 +1,18 @@
 ﻿body{
 	background-image:url('E.jpg');
 	background-repeat:no-repeat;
-	background-size:100% 135%;
-	margin:0;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	margin-top:150px;
+	overflow-x:hidden;
 }
-
 .navbar{
 	font-family:Lato;
 	width:100%;
-	background-color:#FF6699;
 	overflow:visible;
 	color:#000000;
+	position:fixed;
+	top:0;
 }
 .navbar a{
 	font-family:lato;
@@ -25,11 +27,41 @@
 .navbar a:hover{
 	background-color:gray;
 }
+.main{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	margin-left:20px;
+	box-sizing: border-box;
+			}
 
+
+.out{
+	width:250px;
+	height:200px;
+	margin:150px;
+	background-color:white;
+	float:left;
+	padding: 0;
+	margin:80px;
+	margin-top:20px;
+	}
+.inn{
+	width:200px;
+	height:150px;
+	background-color:black;
+	padding-left:10px;
+	margin-left:18px;
+	}
+p{
+width:100%;
+color:white;	}
 h1{
 	color:#FFFFFF;
 	font-size:50px;
-	padding-top:7%;
+	padding-top:0px;
+	padding-bottom:1%;
 	padding-left:37%;
 	font-family:lato;
 	}
@@ -45,4 +77,14 @@ h3{
 	font-family:lato;
 	font-size:30px;
 	padding-left:37%;
+}
+li{
+	color:white;
+	padding-left:0%!important;
+	padding-top:10px;
+	}
+h4{
+	margin:0px;
+	padding:0px;
+	text-align:center;
 }
